@@ -1,2 +1,2 @@
-# Girasol
-Seguidor de Sol. El objetivo es tener un plano siempre perpendicular a la proyección de los rayos solares y que sean recogidos por una celda solar con la máxima potencia. Este plano se mueve a lo largo de los minutos con dos servomotores que modifican los ángulos de azimuth y de elevacion.
+# GiraSol
+GiraSol es Seguidor de Sol. El objetivo es tener un plano siempre perpendicular a la proyección de los rayos solares y que sean recogidos por una celda solar con la máxima potencia. Este plano se mueve a lo largo de los minutos con dos servomotores que modifican los ángulos de azimuth y de elevacion.La manera de comandar los servomotores es a través del sensado co dos n LDR por eje. Cada par de sensores detectan la diferencia de intensidad de luz y gira en el eje hasta que la diferencia sea cero.
